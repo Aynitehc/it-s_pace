@@ -180,7 +180,7 @@ class _HomeScreenState extends State<HomeScreen> {
             children: [
               ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                backgroundColor: const Color.fromARGB(0, 255, 255, 255),
                 padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0),

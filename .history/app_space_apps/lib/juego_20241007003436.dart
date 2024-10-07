@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'info_card.dart';
 import 'game_utils.dart';
-import 'slidesss.dart';
 
 class Juego extends StatelessWidget {
   const Juego({Key? key}) : super(key: key);
@@ -178,31 +177,6 @@ class _HomeScreenState extends State<HomeScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              ElevatedButton(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
-                padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(30.0),
-                ),
-              ),
-              onPressed: () {
-                Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(
-                        builder: (context) => const Slidesss()));
-              },
-              child: const Text(
-                'Back',
-                softWrap: true,
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  color: Color.fromARGB(255, 0, 0, 0),
-                  fontFamily: 'SFPro_Black',
-                  fontSize: 15.0,
-                  decoration: TextDecoration.none,
-                ),
-              ),
-            ),
               Center(
                 child: Text(
                   "Pytho's Memo Game",

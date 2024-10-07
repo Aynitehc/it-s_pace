@@ -79,15 +79,6 @@ flutter:
     - assets/plan.png
     - assets/aero.jpg
     - assets/map.png
-    - assets/fito1.png
-    - assets/fito2.png
-    - assets/fito3.png
-    - assets/fito4.png
-    - assets/fito5.png
-    - assets/fito6.png
-    - assets/ocean.jpg
-    - assets/hidden.png
-    - assets/plata.jpg
       
 
   # To add assets to your application, add an assets section, like this:

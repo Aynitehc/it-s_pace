@@ -11,7 +11,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  bool primeraVez = true;
+  bool primeraVez = false;
 
   @override
   Widget build(BuildContext context) {
